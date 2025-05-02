@@ -12,9 +12,6 @@ import BookingConfirmation from "./pages/BookingConfirmation";
 import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
 
-// Install required packages
-<lov-add-dependency>zustand@latest</lov-add-dependency>
-
 const queryClient = new QueryClient();
 
 const App = () => (
